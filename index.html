@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <title>Super Achievers</title>
+    <script src="./src/UI.js"></script>
 </head>
-<body>
-    <h1>Super Achievers</h1>
+<body onload="loadEmptyScreen()">
+    <div class="w3-row">
+        <div style="height:100%" class="w3-col m3 l2 w3-gray">
+            <div class="w3-container w3-padding-16">
+                <h4>Super Achievers</h4>
+            </div>
+            <button style="width: 100%" class="w3-button w3-dark-gray" onclick="checkLibrary()">Game Library</button>
+        </div>
+        <div style="height:100%" id="Screen" class="w3-col m6 l8">
+            
+        </div>
+    </div>
 </body>
 </html>
